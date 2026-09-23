@@ -40,4 +40,4 @@ vim.opt.splitright = true -- vertical splits go right
 vim.opt.redrawtime = 10000 -- increase neovim redraw tolerance
 vim.opt.maxmempattern = 20000 -- increase max memory
 
--- vim.g.transparent = true
+vim.o.autoread = true -- file watcher
