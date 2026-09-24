@@ -10,7 +10,7 @@ conform.setup({
 		python = { "isort", "autopep8" },
 		c = { "clang-format" },
 		cpp = { "clang-format" },
-		rust = { "ast-grep" },
+		rust = { "rustfmt" },
 		css = { "prettier" },
 	},
 })
