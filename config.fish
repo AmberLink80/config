@@ -18,8 +18,6 @@ if status is-interactive
 	if test -d "$HOME/.local/nvim-linux-x86_64/bin/"
 	    fish_add_path "$HOME/.local/nvim-linux-x86_64/bin/"
 	end
-
-    alias n="nvim . && echo -ne '\e[5 q'"
 end
 
 function y
