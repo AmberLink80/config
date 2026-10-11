@@ -69,7 +69,7 @@ local function harpoon_tabline()
         if is_active then
             tabs[i] = string.format("%%#TabLineSel# %s: %s %%#TabLine#", labels[i], name)
         else
-            tabs[i] = string.format(" %s: %s ", labels[i], name)
+
         end
     end
 

@@ -4,6 +4,10 @@ vim.pack.add({
 })
 
 require("nvim-tree").setup({
+    git = {
+        enable = true,
+        ignore = false,
+    },
     actions = {
         open_file = {
             quit_on_open = true,

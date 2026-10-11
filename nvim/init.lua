@@ -12,6 +12,7 @@ require("core.options")
 require("core.keybinds")
 require("core.commands")
 
+
 -- plugins
 require("plugins.colorscheme")
 require("plugins.toggleterm")
@@ -22,6 +23,7 @@ require("plugins.lsp-config")
 require("plugins.conform")
 require("plugins.blink")
 require("plugins.telescope")
+require("plugins.aicomplete")
 
 -- the funny
 local funny_list = {
